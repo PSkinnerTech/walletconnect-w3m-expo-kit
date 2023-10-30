@@ -32,18 +32,28 @@ This Starter Kit is designed for Expo ^49.0.0 with `expo-router`. It provides an
    yarn install
    ```
 
-3. **Start the Expo App**:
+3. **Setup WalletConnect**:
+
+   - Navigate to [WalletConnect Cloud](https://cloud.walletconnect.com).
+   - Set up an account.
+   - Start a new project.
+   - Copy the project ID.
+   - Open `/app/_layout.tsx` in your code editor.
+   - Update the `const projectId` with the copied project ID.
+   - Note: The metadata below can be updated later before you deploy your application.
+
+4. **Start the Expo App**:
 
    ```bash
    npx expo start
    ```
 
-4. **Run Simulation**:
+5. **Run Simulation**:
 
-   - You can run simulation, but to best simulate the WalletConnect experience, you should run the app on a physical device by scanning the QR code with the Expo Go app.
-   - If you do not have the Expo Go app, you can download it from the [App Store](https://apps.apple.com/us/app/expo-go/id982107779) or [Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_US&gl=US).
-   - If you do not have an Expo account, you will need to create one to run the app on a physical device.
-   - At this moment, do not try to run it on web, as Web3Modal v3 for react-native does not support desktop browser functionality.
+   - You can run a simulation, but to best simulate the WalletConnect experience, you should run the app on a physical device by scanning the QR code with the Expo Go app.
+   - If you do not have the Expo Go app, download it from the [App Store](https://apps.apple.com/us/app/expo-go/id982107779) or [Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_US&gl=US).
+   - If you don't have an Expo account, create one to run the app on a physical device.
+   - Currently, do not attempt to run the app on the web, as Web3Modal v3 for react-native does not support desktop browser functionality.
 
 ### Update Project Metadata
 
