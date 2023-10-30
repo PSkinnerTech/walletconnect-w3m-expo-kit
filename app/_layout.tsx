@@ -14,7 +14,16 @@ import {
   Web3Modal,
 } from "@web3modal/wagmi-react-native";
 import { WagmiConfig } from "wagmi";
-import { mainnet, polygon, arbitrum } from "wagmi/chains";
+import {
+  arbitrum,
+  avalanche,
+  bsc,
+  fantom,
+  gnosis,
+  mainnet,
+  optimism,
+  polygon,
+} from "wagmi/chains";
 
 const projectId = "YOUR_PROJECT_ID";
 
@@ -29,7 +38,16 @@ const metadata = {
   },
 };
 
-const chains = [mainnet, polygon, arbitrum];
+const chains = [
+  mainnet,
+  polygon,
+  avalanche,
+  arbitrum,
+  bsc,
+  optimism,
+  gnosis,
+  fantom,
+];
 
 const wagmiConfig = defaultWagmiConfig({ chains, projectId, metadata });
 
