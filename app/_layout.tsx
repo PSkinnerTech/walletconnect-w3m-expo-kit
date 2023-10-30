@@ -16,16 +16,16 @@ import {
 import { WagmiConfig } from "wagmi";
 import { mainnet, polygon, arbitrum } from "wagmi/chains";
 
-const projectId = "f8d5f6e148c5e3a2cda664423f8bec39";
+const projectId = "YOUR_PROJECT_ID";
 
 const metadata = {
-  name: "D_D Starter Kit",
-  description: "D_D Starter Kit created for Expo ^49.0.0 with expo-router.",
-  url: "https://patrickskinner.tech",
+  name: "Web3Modal RN",
+  description: "Web3Modal RN Example",
+  url: "https://web3modal.com",
   icons: ["https://avatars.githubusercontent.com/u/37784886"],
   redirect: {
-    native: "PSkinnerTech://",
-    universal: "https://patrickskinner.tech",
+    native: "YOUR_APP_SCHEME://",
+    universal: "YOUR_APP_UNIVERSAL_LINK.com",
   },
 };
 
@@ -87,6 +87,7 @@ function RootLayoutNav() {
           <Stack.Screen name="modal" options={{ presentation: "modal" }} />
         </Stack>
       </ThemeProvider>
+
       <Web3Modal />
     </WagmiConfig>
   );
