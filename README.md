@@ -73,7 +73,3 @@ We welcome contributions! If you find a bug or have suggestions, please open an 
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-Feel free to modify or expand upon this documentation as needed. Let me know if you need any additional sections or details!
