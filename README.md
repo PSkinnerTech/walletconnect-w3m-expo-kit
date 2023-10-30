@@ -13,6 +13,10 @@ This Starter Kit is designed for Expo ^49.0.0 with `expo-router`. It provides an
 
 - [Node.js](https://nodejs.org/)
 
+## Notes:
+
+-At this moment, this works cross platform from iOS and Android, but not web. This is actively being worked on so that an app can be built for all three platforms.
+
 ## Getting Started
 
 1. **Clone the Repository**:

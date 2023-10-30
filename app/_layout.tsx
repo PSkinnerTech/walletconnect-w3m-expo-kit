@@ -25,7 +25,9 @@ import {
   polygon,
 } from "wagmi/chains";
 
-const projectId = "YOUR_PROJECT_ID";
+// 1. Get projectID at https://cloud.walletconnect.com
+
+const projectId = "be79f7d787647600a5b9680b4d916910";
 
 const metadata = {
   name: "Web3Modal RN",
