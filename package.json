@@ -17,6 +17,7 @@
     "@react-native-async-storage/async-storage": "1.18.2",
     "@react-native-community/netinfo": "9.3.10",
     "@react-navigation/native": "^6.0.2",
+    "@web3modal/core-react-native": "^1.0.0-alpha.13",
     "@web3modal/wagmi-react-native": "^1.0.0-alpha.13",
     "expo": "~49.0.15",
     "expo-font": "~11.4.0",

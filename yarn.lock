@@ -3170,7 +3170,7 @@
     "@walletconnect/window-getters" "^1.0.1"
     tslib "1.14.1"
 
-"@web3modal/core-react-native@1.0.0-alpha.13":
+"@web3modal/core-react-native@1.0.0-alpha.13", "@web3modal/core-react-native@^1.0.0-alpha.13":
   version "1.0.0-alpha.13"
   resolved "https://registry.yarnpkg.com/@web3modal/core-react-native/-/core-react-native-1.0.0-alpha.13.tgz#b2fc77c7a11fc683d790129de3d6ca3947714fad"
   integrity sha512-atq4nezAvVzUAS6JPSpCf0i9sGqwY4Ioi9IV3arhYVb/MmWBc7RNpDaQcM56mm7uHhLpjBVSXS9oYISlJTplTA==
