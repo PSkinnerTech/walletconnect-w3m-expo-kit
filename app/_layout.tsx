@@ -27,7 +27,7 @@ import {
 
 // 1. Get projectID at https://cloud.walletconnect.com
 
-const projectId = "be79f7d787647600a5b9680b4d916910";
+const projectId = "Add your project ID here";
 
 const metadata = {
   name: "Web3Modal RN",
